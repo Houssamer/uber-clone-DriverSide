@@ -88,5 +88,18 @@ export const styles = StyleSheet.create({
         borderRadius: 25,
         borderColor: "lightgrey",
         borderWidth: 2,
-    }
+    },
+    price: {
+        backgroundColor: "orange",
+        width: 100,
+        height: 40,
+        borderRadius: 30,
+        alignItems: "center",
+        justifyContent: "center",
+    },
+    priceText: {
+        color: "green",
+        fontWeight: "bold",
+        fontSize: 16,
+    },
 });
