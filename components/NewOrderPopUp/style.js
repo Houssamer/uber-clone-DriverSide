@@ -47,7 +47,7 @@ export const styles = StyleSheet.create({
         alignItems: "center",
         justifyContent: "center",
         borderRadius: 30,
-        borderColor: "orange",
+        borderColor: "lightgrey",
         borderWidth: 2,
     },
     acceptText: {
@@ -87,17 +87,26 @@ export const styles = StyleSheet.create({
         fontWeight: "bold",
     },
     duration: {
-        flexDirection: "row",
+        flexDirection: "column",
         alignItems: "center",
         justifyContent: "space-between",
         width: 150,
         height: 50,
     },
     distance: {
-        flexDirection: "row",
+        flexDirection: "column",
         alignItems: "center",
         justifyContent: "space-between",
         width: 150,
         height: 50,
+    },
+    info: {
+        flexDirection: "row",
+        width: "100%",
+        height: 100,
+        marginTop: 10,
+        alignItems: "center",
+        justifyContent: "space-between",
+        padding: 5,
     }
 });

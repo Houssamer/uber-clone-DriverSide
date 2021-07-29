@@ -16,13 +16,15 @@ const NewOrderPopUp = ({order, duration, distance, onAccept, onDecline}) => {
                     </View>
                     <Text style={styles.name}>{order.user.name}</Text>
                 </View>
-                <View style={styles.duration}>
-                    <Entypo name="time-slot" size={24} color="black" />
-                    <Text style={styles.durationText}>{duration} min</Text>
-                </View>
-                <View style={styles.distance}>
-                    <MaterialCommunityIcons name="map-marker-distance" size={24} color="black" />
-                    <Text style={styles.distanceText}>{distance} Km</Text>
+                <View style={styles.info}>
+                    <View style={styles.duration}>
+                        <Entypo name="time-slot" size={30} color="black" />
+                        <Text style={styles.durationText}>{duration} min</Text>
+                    </View>
+                    <View style={styles.distance}>
+                        <MaterialCommunityIcons name="map-marker-distance" size={30} color="black" />
+                        <Text style={styles.distanceText}>{distance} Km</Text>
+                    </View>
                 </View>
 
             </View>
