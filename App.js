@@ -2,6 +2,12 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import HomeScreen from './Screens/Home/HomeScreen';
+import * as Location from 'expo-location';
+
+Location.installWebGeolocationPolyfill();
+navigator.geolocation.getCurrentPosition();
+
+
 
 export default function App() {
   return (

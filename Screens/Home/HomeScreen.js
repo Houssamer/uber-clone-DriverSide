@@ -7,6 +7,7 @@ import { AntDesign } from '@expo/vector-icons';
 import { Feather } from '@expo/vector-icons';
 import { FontAwesome } from '@expo/vector-icons';
 import NewOrderPopUp from '../../components/NewOrderPopUp/NewOrderPopUp';
+import DirectionScreen from './DirectionScreen/DirectionScreen';
 
 
 const HomeScreen = () => {
@@ -34,8 +35,8 @@ const HomeScreen = () => {
 
     if (order) {
         return (
-            <View>
-
+            <View style={styles.container}>
+                <DirectionScreen order={order} />
             </View>
         )
     } else {
