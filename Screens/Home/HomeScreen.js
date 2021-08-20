@@ -7,7 +7,7 @@ import { AntDesign } from '@expo/vector-icons';
 import { Feather } from '@expo/vector-icons';
 import { FontAwesome } from '@expo/vector-icons';
 import NewOrderPopUp from '../../components/NewOrderPopUp/NewOrderPopUp';
-import DirectionScreen from './DirectionScreen/DirectionScreen';
+import DirectionScreen from '../DirectionScreen/DirectionScreen';
 
 
 const HomeScreen = () => {
